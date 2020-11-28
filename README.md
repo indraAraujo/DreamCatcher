@@ -9,3 +9,4 @@ Páginas implementadas:
 - Login
 - Relatos (postagens de todos os usuários)
 - Publicar (cadastro do post do usuário logado)
+- Conceitos
