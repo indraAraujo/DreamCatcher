@@ -1,0 +1,55 @@
+body {
+    background-image: url('ssky.jpg');
+    font-family: 'Nova Mono', monospace;
+    font-size: large;
+  }
+
+
+/* __________________________________________________  MENU  _____________________________________________________*/
+
+
+
+.navbar {
+  display: flex;
+  max-width: 700px;
+  margin: 20px auto;
+  box-shadow: 0px 3.68611px 3.68611px rgba(255, 255, 255, 0.72);
+  border-radius: 9.21528px;
+  }
+  
+.navbar-custom { 
+  display: flex;
+  justify-content: center;
+  background-color: #002154; 
+
+} 
+
+/*____________________________________ CONTEUDO _______________________________ */
+
+.apanhador{
+  margin-top: 10px;
+}
+
+.cont-main{
+  align-self: center;
+  margin-top: 10px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.btn{
+  box-shadow: 0px 3.68611px 3.68611px grey;
+  border-radius: 20px;
+}
+
+
+@media(max-width: 500px){
+
+  .navbar-custom { 
+    display: flex;
+    justify-content: center;
+    width: 300px;
+  
+  } 
+}
+
